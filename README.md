@@ -1,9 +1,9 @@
-# Farrah's Arcade
+# Farah's Arcade
 
 A small, honest home for free, open-source, **offline-first** games — with no ads, no tracking,
 and no harassment.
 
-Farrah's Arcade is a companion to the **TI Skills Economy** (part of Charging the Future), a
+Farah's Arcade is a companion to the **TI Skills Economy** (part of Charging the Future), a
 peer-to-peer marketplace where survivors of human trafficking help each other rebuild their lives.
 The mainstream app stores are not always safe ground: a game downloaded today can be replaced
 tomorrow by a forced update that adds harassment and invades privacy. This arcade is a quiet place

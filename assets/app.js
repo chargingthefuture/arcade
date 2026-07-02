@@ -1,4 +1,4 @@
-/* Farrah's Arcade — renders the game list from games.json.
+/* Farah's Arcade — renders the game list from games.json.
    This runs entirely in the browser. It fetches one local file and touches no outside
    service, so opening the page tracks nobody. */
 
