@@ -41,6 +41,14 @@
       "sourceUrl": "https://github.com/chargingthefuture/redline"
     },
     {
+      "title": "Vox",
+      "description": "A side-scrolling action platformer where you play a survivor who got their voice back.",
+      "emoji": "🗣️",
+      "tags": ["action", "platformer"],
+      "playUrl": "https://chargingthefuture.github.io/vox/",
+      "sourceUrl": "https://github.com/chargingthefuture/vox"
+    },
+    {
       "title": "Specterrealm",
       "description": "A spooky realm adventure. In progress — coming soon.",
       "emoji": "👻",
