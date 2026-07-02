@@ -1,3 +1,47 @@
 {
-  "games": []
+  "games": [
+    {
+      "title": "Glowline",
+      "emoji": "✨",
+      "tags": ["arcade"],
+      "playUrl": "https://chargingthefuture.github.io/glowline/",
+      "sourceUrl": "https://github.com/chargingthefuture/glowline"
+    },
+    {
+      "title": "Glowline 2",
+      "emoji": "🌟",
+      "tags": ["arcade"],
+      "playUrl": "https://chargingthefuture.github.io/glowline2/",
+      "sourceUrl": "https://github.com/chargingthefuture/glowline2"
+    },
+    {
+      "title": "Chess",
+      "description": "The classic game of chess, at your own pace.",
+      "emoji": "♟️",
+      "tags": ["board", "strategy"],
+      "playUrl": "https://chargingthefuture.github.io/chess/",
+      "sourceUrl": "https://github.com/chargingthefuture/chess"
+    },
+    {
+      "title": "Cascade",
+      "emoji": "💧",
+      "tags": ["puzzle"],
+      "playUrl": "https://chargingthefuture.github.io/cascade/",
+      "sourceUrl": "https://github.com/chargingthefuture/cascade"
+    },
+    {
+      "title": "Redline",
+      "emoji": "🔴",
+      "tags": ["arcade"],
+      "playUrl": "https://chargingthefuture.github.io/redline/",
+      "sourceUrl": "https://github.com/chargingthefuture/redline"
+    },
+    {
+      "title": "Specterrealm",
+      "description": "In progress — coming soon.",
+      "emoji": "👻",
+      "tags": ["in progress"],
+      "sourceUrl": "https://github.com/chargingthefuture/specterrealm"
+    }
+  ]
 }
