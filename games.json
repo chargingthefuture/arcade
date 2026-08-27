@@ -4,23 +4,30 @@
       "title": "Glowline",
       "description": "A glowing-line arcade game.",
       "emoji": "✨",
-      "tags": ["arcade"],
-      "playUrl": "https://chargingthefuture.github.io/glowline/",
-      "sourceUrl": "https://github.com/chargingthefuture/glowline"
+      "tags": [
+        "arcade"
+      ],
+      "playUrl": "https://chargingthefuture.github.io/offline-os/apps/glowline/",
+      "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/glowline"
     },
     {
       "title": "Glowline 2",
       "description": "The sequel to Glowline — more glowing-line arcade play.",
       "emoji": "🌟",
-      "tags": ["arcade"],
-      "playUrl": "https://chargingthefuture.github.io/glowline2/",
-      "sourceUrl": "https://github.com/chargingthefuture/glowline2"
+      "tags": [
+        "arcade"
+      ],
+      "playUrl": "https://chargingthefuture.github.io/offline-os/apps/glowline2/",
+      "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/glowline2"
     },
     {
       "title": "Chess",
       "description": "The classic game of chess, played offline at your own pace.",
       "emoji": "♟️",
-      "tags": ["board", "strategy"],
+      "tags": [
+        "board",
+        "strategy"
+      ],
       "playUrl": "https://chargingthefuture.github.io/offline-os/apps/chess/",
       "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/sources/chess"
     },
@@ -28,7 +35,9 @@
       "title": "Cascade",
       "description": "A falling-blocks puzzle.",
       "emoji": "💧",
-      "tags": ["puzzle"],
+      "tags": [
+        "puzzle"
+      ],
       "playUrl": "https://chargingthefuture.github.io/offline-os/apps/cascade/",
       "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/cascade"
     },
@@ -36,15 +45,21 @@
       "title": "Redline",
       "description": "A fast-running platformer.",
       "emoji": "🔴",
-      "tags": ["arcade", "platformer"],
-      "playUrl": "https://chargingthefuture.github.io/redline/",
-      "sourceUrl": "https://github.com/chargingthefuture/redline"
+      "tags": [
+        "arcade",
+        "platformer"
+      ],
+      "playUrl": "https://chargingthefuture.github.io/offline-os/apps/redline/",
+      "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/redline"
     },
     {
       "title": "Vox",
       "description": "A side-scrolling action platformer: play a survivor who got their voice back and fight back, one cartoon tactic at a time.",
       "emoji": "🗣️",
-      "tags": ["action", "platformer"],
+      "tags": [
+        "action",
+        "platformer"
+      ],
       "playUrl": "https://chargingthefuture.github.io/vox/",
       "sourceUrl": "https://github.com/chargingthefuture/vox"
     },
@@ -52,7 +67,10 @@
       "title": "Specterrealm",
       "description": "A spooky realm adventure. In progress — coming soon.",
       "emoji": "👻",
-      "tags": ["adventure", "in progress"],
+      "tags": [
+        "adventure",
+        "in progress"
+      ],
       "sourceUrl": "https://github.com/chargingthefuture/specterrealm"
     }
   ]
