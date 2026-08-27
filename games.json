@@ -21,16 +21,16 @@
       "description": "The classic game of chess, played offline at your own pace.",
       "emoji": "♟️",
       "tags": ["board", "strategy"],
-      "playUrl": "https://chargingthefuture.github.io/chess/",
-      "sourceUrl": "https://github.com/chargingthefuture/chess"
+      "playUrl": "https://chargingthefuture.github.io/offline-os/apps/chess/",
+      "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/sources/chess"
     },
     {
       "title": "Cascade",
       "description": "A falling-blocks puzzle.",
       "emoji": "💧",
       "tags": ["puzzle"],
-      "playUrl": "https://chargingthefuture.github.io/cascade/",
-      "sourceUrl": "https://github.com/chargingthefuture/cascade"
+      "playUrl": "https://chargingthefuture.github.io/offline-os/apps/cascade/",
+      "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/cascade"
     },
     {
       "title": "Redline",
