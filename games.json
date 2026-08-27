@@ -64,6 +64,77 @@
       "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/sources/vox"
     },
     {
+      "title": "2048",
+      "description": "Slide the numbered tiles together. Two that match combine into one worth double — keep going until you reach 2048.",
+      "emoji": "🔢",
+      "tags": [
+        "puzzle"
+      ],
+      "playUrl": "https://chargingthefuture.github.io/offline-os/apps/2048/",
+      "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/2048"
+    },
+    {
+      "title": "Snake",
+      "description": "Steer a snake that grows every time it eats. Do not hit the wall, and do not run into yourself.",
+      "emoji": "🐍",
+      "tags": [
+        "arcade"
+      ],
+      "playUrl": "https://chargingthefuture.github.io/offline-os/apps/snake/",
+      "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/snake"
+    },
+    {
+      "title": "Breakout",
+      "description": "Slide the paddle, bounce the ball back up, and clear every brick on the screen.",
+      "emoji": "🟧",
+      "tags": [
+        "arcade"
+      ],
+      "playUrl": "https://chargingthefuture.github.io/offline-os/apps/breakout/",
+      "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/breakout"
+    },
+    {
+      "title": "Space Invaders",
+      "description": "Rows of aliens march down toward you. Move side to side and shoot them all before they land.",
+      "emoji": "👾",
+      "tags": [
+        "arcade"
+      ],
+      "playUrl": "https://chargingthefuture.github.io/offline-os/apps/invaders/",
+      "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/invaders"
+    },
+    {
+      "title": "Pong",
+      "description": "Paddle against the computer. First to seven points wins.",
+      "emoji": "🏓",
+      "tags": [
+        "arcade"
+      ],
+      "playUrl": "https://chargingthefuture.github.io/offline-os/apps/pong/",
+      "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/pong"
+    },
+    {
+      "title": "Gem Match",
+      "description": "Swap two gems to line up three or more of the same color, then watch the rest fall into place.",
+      "emoji": "💎",
+      "tags": [
+        "puzzle"
+      ],
+      "playUrl": "https://chargingthefuture.github.io/offline-os/apps/gem-match/",
+      "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/gem-match"
+    },
+    {
+      "title": "Word Wheel",
+      "description": "Spin the wheel, guess a letter, and solve the hidden phrase before your turns run out.",
+      "emoji": "🎡",
+      "tags": [
+        "word",
+        "puzzle"
+      ],
+      "playUrl": "https://chargingthefuture.github.io/offline-os/apps/word-wheel/",
+      "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/word-wheel"
+    },
+    {
       "title": "Specterrealm",
       "description": "A spooky realm adventure. In progress — coming soon.",
       "emoji": "👻",
