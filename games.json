@@ -60,8 +60,8 @@
         "action",
         "platformer"
       ],
-      "playUrl": "https://chargingthefuture.github.io/vox/",
-      "sourceUrl": "https://github.com/chargingthefuture/vox"
+      "playUrl": "https://chargingthefuture.github.io/offline-os/apps/vox/",
+      "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/sources/vox"
     },
     {
       "title": "Specterrealm",
