@@ -115,7 +115,7 @@
     },
     {
       "title": "Gem Match",
-      "description": "Swap two gems to line up three or more of the same color, then watch the rest fall into place.",
+      "description": "Swap two gems to line up a run of the same color. Levels raise the bar from three in a row to four, and a dead board deals itself again.",
       "emoji": "💎",
       "tags": [
         "puzzle"
