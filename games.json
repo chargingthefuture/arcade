@@ -146,13 +146,23 @@
     },
     {
       "title": "Peace-Battle 2",
-      "description": "One board, three rule sets, and three answers to when a thing is finished. Lizzie Magie's Landlord's Game ends when somebody reaches $2,000. Her Prosperity ends when the poorest player has doubled their money. Skills Economy ends when everybody has both given and received.",
+      "description": "One board, two rule sets, and two answers to when a thing is finished. Lizzie Magie's Landlord's Game, which became Monopoly, ends when somebody reaches $2,000. Her Prosperity ends when the poorest player has doubled their money, and any player may call for the switch mid-game.",
       "emoji": "🎲",
       "tags": [
         "strategy"
       ],
       "playUrl": "https://chargingthefuture.github.io/offline-os/apps/peace-battle-2/",
       "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/peace-battle-2"
+    },
+    {
+      "title": "Peace-Battle 3",
+      "description": "A map of sixteen cities where isolation spreads \u2014 a place where somebody needs something and nobody findable can do it. Four people with skills spread against it. Cooperative: cover the map and 30 million people can find somebody, or six places cut off and it is over.",
+      "emoji": "\ud83d\uddfa\ufe0f",
+      "tags": [
+        "strategy"
+      ],
+      "playUrl": "https://chargingthefuture.github.io/offline-os/apps/peace-battle-3/",
+      "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/peace-battle-3"
     },
     {
       "title": "Specterrealm",
