@@ -145,6 +145,16 @@
       "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/peace-battle"
     },
     {
+      "title": "Peace-Battle 2",
+      "description": "One board, two rule sets, both written by Lizzie Magie — whose Landlord's Game became Monopoly. Under one, you win by bankrupting everyone. Under the other, it ends when the poorest player has doubled their money.",
+      "emoji": "🎲",
+      "tags": [
+        "strategy"
+      ],
+      "playUrl": "https://chargingthefuture.github.io/offline-os/apps/peace-battle-2/",
+      "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/peace-battle-2"
+    },
+    {
       "title": "Specterrealm",
       "description": "A spooky realm adventure. In progress — coming soon.",
       "emoji": "👻",
