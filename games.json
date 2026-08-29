@@ -135,6 +135,16 @@
       "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/word-wheel"
     },
     {
+      "title": "Peace-Battle",
+      "description": "Split each round between teaching and working, and watch what the split is worth. Replays a real chain from 1903: two thousand people trained fifty thousand, who reached nine million.",
+      "emoji": "🎓",
+      "tags": [
+        "strategy"
+      ],
+      "playUrl": "https://chargingthefuture.github.io/offline-os/apps/peace-battle/",
+      "sourceUrl": "https://github.com/chargingthefuture/offline-os/tree/main/apps/peace-battle"
+    },
+    {
       "title": "Specterrealm",
       "description": "A spooky realm adventure. In progress — coming soon.",
       "emoji": "👻",
