@@ -22,6 +22,8 @@ assets/styles.css   Styling
 assets/app.js       Reads games.json and builds the game grid in the browser
 assets/favicon.svg  Site icon
 .nojekyll           Tells GitHub Pages to serve the files exactly as they are
+.github/workflows/  The deploy workflow (see Publish below)
+AGENTS.md           Instructions for agents working in this repository
 ```
 
 ## View it locally
@@ -71,10 +73,14 @@ an empty grid.
 
 ## Publish with GitHub Pages
 
-1. Push to the default branch.
-2. In the repository settings, under **Pages**, set the source to **Deploy from a branch** and pick
-   the default branch with the `/ (root)` folder.
-3. GitHub serves the page at the address shown on that settings screen.
+The repository's Pages source is set to **GitHub Actions**, so
+`.github/workflows/deploy-pages.yml` publishes the site: on every push to `main` it uploads the
+repository as-is and deploys it. It can also be run by hand from the Actions tab. The page lives at
+https://chargingthefuture.github.io/arcade/.
+
+Most games listed today are hosted in the
+[`offline-os`](https://github.com/chargingthefuture/offline-os) repository; this page only links
+to where each game is played and to its source.
 
 ## The promise every game here keeps
 
