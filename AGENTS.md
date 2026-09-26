@@ -134,10 +134,9 @@ branch is cleaned up. Carry every change through that whole path, in this order,
    Finished work should not sit on a branch with no pull request. Give the request a descriptive,
    plain-language title and a body that says what changed and why, in the same plain voice as every
    other reply.
-2. **Watch the request through to merge.** Opening it is not the finish line; track its state until
-   it is merged. Where the environment can notify you of changes to the request — review comments,
-   check results, new conflicts — subscribe to those notifications instead of checking in a tight
-   loop; otherwise re-check its status from time to time. Never block on a sleep loop.
+2. **Do not watch the request.** After opening it, do not subscribe to its activity, do not schedule
+   a check-in, and do not wait for its checks to finish. Report once and stop. See "No PR watching"
+   below.
 3. **Keep it mergeable — fix conflicts.** If the default branch moves ahead and the request develops
    merge conflicts, bring the latest default-branch commits into the branch (rebase onto it, or merge
    it in) and resolve the conflicts, keeping both sides' intent. If a conflict is a real, ambiguous
@@ -157,8 +156,8 @@ match the repository's own rules rather than merging around them.
 Mechanism, by where the agent runs:
 
 - **Claude Code on the web:** use the GitHub tools to open the request, update its branch from the
-  default branch, and merge it; use the pull-request activity subscription to be told about check
-  results, reviews, and conflicts instead of polling for them.
+  default branch, and merge it. Do not subscribe to pull-request activity; if the harness subscribes
+  on its own, unsubscribe straight away (see "No PR watching" below).
 - **Local Claude Code / a terminal:** `gh pr create` to open it, `gh pr checks` to read check state,
   `git rebase`/`git merge` to clear conflicts, and `gh pr merge --auto --delete-branch` (with the
   repository's merge method) to merge and remove the branch in one step.
@@ -185,6 +184,23 @@ ones your new repo needs under the placeholder section, in your own words:
 - Integration/auth/observability/provider rules (the specific services a product uses).
 - Continuous-integration job names, pull-request parity checks, and release conventions.
 - Any rules-index / precedence list that points at project rule files.
+
+## No PR watching (owner directive, 2026-09-26)
+
+Never watch a pull request. After opening one, do not subscribe to its activity, do not schedule a check-in, and do not wait for its checks to finish. Report once and stop. The harness may subscribe a session to every pull request it opens on its own; unsubscribe straight away.
+
+Watching fills the session with GitHub notices and full check lists, which brings on compaction sooner, and a compacted session loses what the owner said earlier. The owner merges from their phone and sees the checks there. Checks run locally before every push are what keep a pull request from going red; when the owner wants to know where open pull requests stand, they ask, and the agent makes one pass over them, not a watch.
+
+## Keep sessions from filling up (owner directive, 2026-09-26)
+
+Everything an agent reads stays in the session until compaction, and compaction swaps the earlier conversation for a summary. So spend the session on the owner's words, not on raw output.
+
+- Hand broad searches to a helper agent that returns only its conclusion. Anything that means reading across several files or directories to answer one question goes to a helper; a single lookup in a known file is done directly.
+- Read only the part of a file the task needs, by line range or search, not entire files.
+- Read only failed checks and the failing part of a log. Never pull a full list of passing checks or a full log to confirm something is green.
+- Take a screenshot only when a visual change has to be checked, and look at it once.
+
+The owner can also compact on their own terms: typing `/compact` followed by what to keep (for example, `/compact keep the open PR list and today's rules`) compacts at a moment they choose, with their instructions shaping the summary. `/clear` starts the session over. Rules that must outlive any session go in this file, not in chat.
 
 ---
 
