@@ -26,7 +26,7 @@ contains a banned term and asks for a plain restatement.
 
 The Stop hook `hooks/check-no-pleasantries.mjs` holds the canonical list and is the source of
 truth; if this copy and the hook ever differ, the hook wins. Keep the two in sync — when you
-change one, change the other. The hook scans the whole reply and matches the term even inside
+change one, change the other. The hook scans the entire reply and matches the term even inside
 quotes, so do not reach for a banned word even to talk about it; use the replacement below instead.
 
 **Pleasantries, feelings, and sign-offs — never use any of these (in any reply):**
@@ -127,7 +127,7 @@ can run anytime").
 ## Pull requests and the merge lifecycle (all agents)
 
 A task is not finished when the code is written — it is finished when the change is merged and the
-branch is cleaned up. Carry every change through that whole path, in this order, without being asked:
+branch is cleaned up. Carry every change through that path, in this order, without being asked:
 
 1. **Open a pull request when the work is complete.** Once the task's changes are committed and the
    descriptive branch is pushed, open a pull request from that branch against the default branch.
