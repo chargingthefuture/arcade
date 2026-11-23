@@ -42,14 +42,17 @@ const VOCABULARY = [
   // "console" reads as developer jargon for a screen; say "dashboard". The negative lookahead skips
   // the code identifiers console.log / console.error / console.info so quoting real code never trips.
   { re: /\bconsole\b(?!\.\w)/i, use: 'dashboard' },
-  // Both of these are the same tic: a sentence that arrives after the facts to announce which one
-  // of them was the important one. It reads as insistence, and the reader can weigh the facts
-  // without being told. State the point and stop.
-  { re: /\bwhole point\b/i, use: 'say the point plainly, without announcing that it is the point' },
-  { re: /\bwhole argument\b/i, use: 'state the argument itself, without labeling it the argument' },
-  // A third spelling of the same tic. Three of them banned is the signal to stop reaching for
-  // the shape at all, not to find a fourth wording for it.
-  { re: /\bpoint of the thing\b/i, use: 'end on the fact itself, with no sentence explaining that it mattered' },
+  // The word itself, in every frame, negated forms included. It was banned as a construction
+  // first -- "that is the whole point" -- and each time a noun was named the next reply reached
+  // for a different one in the same frame, then for the same word one frame over ("for the whole
+  // of that chain"). Entire, all of and end to end cover every honest use, and most uses were
+  // carrying nothing.
+  { re: /\bwholly?\b/i, use: 'entire, all of, end to end -- or drop it, which is usually right' },
+  // The sentence that arrives after the facts to tell the reader which of them mattered. It reads
+  // as insistence, and a reader can weigh facts without being told which one to weigh.
+  { re: /\b(?:that|this|which|it) is the point (?:of|here)\b/i,
+    use: 'end on the fact itself -- if a sentence only labels what came before it, delete it' },
+  { re: /\bpoint of the thing\b/i, use: 'end on the fact itself' },
 ];
 
 function readStdin() {
@@ -101,7 +104,8 @@ try {
         reason:
           `The reply contains a banned pleasantry/feeling/sign-off ("${pleasantry[0]}"). ` +
           'Restate the result in plain, factual language — no thanks, apologies, well-wishes, ' +
-          'sign-offs, jargon, or first-person feeling words — then stop.',
+          'sign-offs, jargon, or first-person feeling words — then stop. Restate once and briefly: do not ' +
+          're-send the full reply with one word swapped.',
       }),
     );
   } else if (vocab) {
@@ -110,7 +114,8 @@ try {
         decision: 'block',
         reason:
           `The reply uses a banned word ("${vocab.term}"). Use instead: ${vocab.use}. ` +
-          'Restate in plain language, then stop.',
+          'Restate once and briefly in plain language, then stop. Do not re-send the full reply with ' +
+          'one word swapped.',
       }),
     );
   }
